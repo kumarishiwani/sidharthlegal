@@ -14,10 +14,16 @@
 			<p>Siddharth Acharya takes no liability for consequences of any action taken by you relying on the matter/information/content posted on this website.</p>
 			<p>By entering this website, you confirm and acknowledge that you have voluntarily sought the information relating to and/or posted by Siddharth Acharya and there has been no solicitation/advertisement/inducement by either Siddharth Acharya and/or its partners and/or its members.</p>
 			<form class="disclaimer-form text-center">
-				<button type="button" class="btn btn-success" data-dismiss="modal">I Agree</button>
+				<button type="button" class="btn btn-success" onclick="Agreed()">I Agree</button>
 			</form>
 		</div>
 	</div>
 </body>
+<script>
+	function Agreed() {
+    localStorage.setItem("disclaimer", true);
+    window.location.href = "/index.html";
+}
+</script>
 </html>
 
