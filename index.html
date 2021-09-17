@@ -19,8 +19,9 @@
 	<!-- Stylesheets
     ============================================= -->
 	<link href="assets/css/external.css" rel="stylesheet">
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">	
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
+
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 	<!--[if lt IE 9]>
@@ -824,11 +825,41 @@
 		</footer>
 		</div>
 		<!-- #wrapper end -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Disclaimer</h5>
+                
+            </div>
+            <div class="modal-body">
+                <div class="disclaimer-text">
+					
+<p>
+The rules of the Bar Council of India do not permit advertisement or solicitation by Advocates in any form or manner.</p>
+<p>This website <a href="https://www.siddharthacharya.com">www.siddharthacharya.com</a> and the contents thereof are merely for informational purposes and not in the nature of solicitation or an advertisement. Similarly, any matter/information/content posted by Siddharth Acharya on this website shall not be construed as legal advice.</p>
+<p>Siddharth Acharya takes no liability for consequences of any action taken by you relying on the matter/information/content posted on this website.</p>
+<p>By entering this website, you confirm and acknowledge that you have voluntarily sought the information relating to and/or posted by Siddharth Acharya and there has been no solicitation/advertisement/inducement by either Siddharth Acharya and/or its partners and/or its members.
+</p>
+				</div>
+                <form class="disclaimer-form text-center">
+                    
+<button type="button" class="btn btn-success" data-dismiss="modal">Agree</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 		<!-- Footer Scripts
 ============================================= -->
 		<script src="assets/js/jquery-2.2.4.min.js"></script>
 		<script src="assets/js/plugins.js"></script>
 		<script src="assets/js/functions.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#myModal').modal({backdrop:'static',keyboard:false, show:true});
+    });
+</script>
 </body>
 </html>

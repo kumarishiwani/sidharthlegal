@@ -3724,4 +3724,17 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
   padding: 90px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.modal-body {
+    max-height: calc(100vh - 152px);
+    overflow-y: auto;
+}
+.modal-header{
+background-color:#C81F2C;
+}
+.modal-body p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
