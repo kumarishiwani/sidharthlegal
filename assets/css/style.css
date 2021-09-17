@@ -3738,3 +3738,25 @@ background-color:#C81F2C;
   margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
 }
+h1{
+	text-align:center;
+	body-color:pink;
+}
+.btn .btn-success{
+	text-align:center;
+}
+.disclaimer-text{
+	background-color:#363636;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.disclaimer-title{
+	font-size:32px;
+	
+}
