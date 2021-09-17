@@ -872,13 +872,11 @@ The rules of the Bar Council of India do not permit advertisement or solicitatio
 		<script src="assets/js/plugins.js"></script>
 		<script src="assets/js/functions.js"></script>
 <script>
-    $(document).ready(function(){
-        $('#myModal').modal({backdrop:'static',keyboard:false, show:true});
-    });
+    
 	$(window).on('load', function () {
 		var value = localStorage.getItem("disclaimer");
-		if (value === undefined || value === null && window.location.pathname != "/disclaimer.html") {
-			window.location.href = "/disclaimer.html";
+		if (value === undefined || value === null && window.location.pathname != "/sidharthlegal/disclaimer.html") {
+			window.location.href = "/sidharthlegal/disclaimer.html";
 		}
 	});
 </script>
