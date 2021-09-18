@@ -3,7 +3,7 @@
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 
-<title>Disclaimer</title>
+<title>Sidharth Acharya | Disclaimer</title>
 </head>
 <body class="disclaimer-text">
 	<div class="container">
