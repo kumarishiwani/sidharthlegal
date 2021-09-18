@@ -898,8 +898,8 @@ The rules of the Bar Council of India do not permit advertisement or solicitatio
     
 	$(window).on('load', function () {
 		var value = localStorage.getItem("disclaimer");
-		if (value === undefined || value === null && window.location.pathname != "/disclaimer.php") {
-			window.location.href = "/disclaimer.php";
+		if (value === undefined || value === null && window.location.pathname != "/disclaimer") {
+			window.location.href = "/disclaimer";
 		}
 	});
 </script>
